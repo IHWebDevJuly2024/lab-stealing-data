@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const axios = require('axios'); 
 
+
 const characterSchema = new Schema({
     name: { type: String, required: true },
     imageUrl: { type: String, required: true },
